@@ -18,7 +18,6 @@ In the end, due to time restrictions and scope, under the advise of our professo
 We created a Tensorflow model that takes in labeled images, trains a tensorflow model for a certain number of iterations and then is tested on the test dataset.
 Our dataset consists of images for the speed limit values of 25, 30, 35, 40, 45, 50, & 60. We suspect at the time of the creation of the dataset, there wasn't widespread usage of 70 mph speed limit, thus the lack of it in the LISA Traffic Sign Dataset.
 Below is the breakdown of number of images we have for each type of speed limit:
-  <li>
     <ul>25  - 587 images</ul>
     <ul>30  - 157 images</ul>
     <ul>35  - 141 images</ul>
@@ -26,7 +25,6 @@ Below is the breakdown of number of images we have for each type of speed limit:
     <ul>45  - 77 images</ul>
     <ul>50  - 48 images</ul>
     <ul>60  - 3 images</ul>
-  </li>
 
 The required packages for this program are: tensorflow, IPython, PIL, glob, numpy, cv2, & random.
 
