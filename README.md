@@ -29,7 +29,7 @@ Below is the breakdown of number of images we have for each type of speed limit:
 The required packages for this program are: tensorflow, IPython, PIL, glob, numpy, cv2, & random.
 
 1) We first created a probability distribution for each unique speed limit value.
-  ```
+  ```python
   prob_25 = np.array([1.0, 0.5, 0.25, 0.1, 0, 0, 0])
   prob_30 = np.array([0.5, 1.0, 0.5, 0.25, 0.1, 0, 0])
   prob_35 = np.array([.25, 0.5, 1., 0.5, .25, .1, 0])
