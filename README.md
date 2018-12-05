@@ -41,7 +41,7 @@ The required packages for this program are: tensorflow, IPython, PIL, glob, nump
 
 2) We read in the data by using a for loop for each type of speed limit. For each speed limit value, the images are stored in a 
    respective folder. We pull each folder, get the image from that folder, resize the image, flatten it, and append it to the image        list and the probability array. Below is an example of this for loop for speed limit value 25.
-  ```
+  ```python
   for i, filename in enumerate(glob.glob('25/*.png')):
     prob = np.zeros(7)
     prob = prob_25
@@ -57,7 +57,7 @@ The required packages for this program are: tensorflow, IPython, PIL, glob, nump
   ```
 
 3) Then all the data was combined into a list, shuffled, and split into training and testing lists
-  ```
+  ```python
   combined = list(zip(image_list, speed_limit_probs))
   random.shuffle(combined)
 
